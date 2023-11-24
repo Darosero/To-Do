@@ -6,7 +6,7 @@ import LayoutColor from "./layouts/LayoutColor";
 export default function Important() {
   return (
     <Layout>
-      <LayoutColor  fromColor="green-900" viaColor="green-800">
+      <LayoutColor  fromColor="from-green-900" viaColor="via-green-800/50">
         <div className="grid grid-rows-[auto,1fr,auto] w-full">
           <section>
             <header className="flex flex-row gap-4 items-center stroke-white">

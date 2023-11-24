@@ -6,7 +6,7 @@ import LayoutColor from "./layouts/LayoutColor";
 function Day() {
   return (
     <Layout>
-      <LayoutColor fromColor="blue-900" viaColor="blue-800" >
+      <LayoutColor fromColor="from-blue-900" viaColor="via-blue-800/50" >
         <div className="grid grid-rows-[auto,1fr,auto] w-full">
           <section>
             <header className="flex flex-row gap-4 items-center stroke-white">
