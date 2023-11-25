@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import AsideElement from "./AsideElements";
 import IconDay from "../icons/IconDay";
 import IconStar from "../icons/IconStar";
+import IconPlanned from "../icons/IconPlanned";
 export default function AsideMenu() {
   const navigate = useNavigate();
 
@@ -13,6 +14,9 @@ export default function AsideMenu() {
         </AsideElement>
         <AsideElement navigate={navigate} title="Importante">
           <IconStar />
+        </AsideElement>
+        <AsideElement navigate={navigate} title="Planeado">
+          <IconPlanned />
         </AsideElement>
       </section>
       <section className="overflow-y-hidden"></section>

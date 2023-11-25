@@ -20,6 +20,8 @@ export default function AsideElement({ navigate, children, title }) {
           navigate = navigate("/day");
         } else if (title === "Importante") {
           navigate = navigate("/important");
+        }else if (title === "Planeado") {
+          navigate = navigate("/planned");
         }
       }}
       className={botonClases}

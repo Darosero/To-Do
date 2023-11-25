@@ -5,6 +5,7 @@ import Day from "./Day.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Important from "./Important.jsx";
+import Planned from "./Planned.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/important",
     element: <Important/>
+  },
+  {
+    path: "/planned",
+    element: <Planned/>
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
